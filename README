@@ -1,0 +1,12 @@
+CSV to binary file converter. Used with Octave, since Octave could not read through a 3.7 GB CSV-file.
+Made for a specific kind of a CSV-file with 7 header rows (which are discarded, CSVReader.java lines 29-31). The CSV-file data is dumped out as doubles in little endian byte order.
+
+
+The software is licensed under a Creative Commons Attribution 3.0 Unported License.
+Copyright (C) 2014 Timo Rantalainen
+
+Compile:
+ant
+
+Execute
+java -jar build\CSVtoBIN.jar fullPathToCSVFile fullPathToSaveABinaryFile [separatorForTheCSVFile = ","]

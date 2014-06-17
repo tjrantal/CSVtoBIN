@@ -1,0 +1,3 @@
+Main-Class: timo.deakin.CSVtoBIN
+Permissions: all-permissions
+
